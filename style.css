@@ -1,0 +1,101 @@
+*{
+   margin: 0px;
+   font-family: "inter";
+}
+#top-menu{
+    background-image: url(./images/fundo-topmenu.svg);
+    padding-top: 1px;
+}
+#title-top{
+    margin-left: 62px;
+    margin-top: 206px;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+#text-top{
+    margin-left: 62px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 150px;
+}
+#info-menu{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #F9F9F9;
+    columns: auto;
+    padding: 50px;
+}
+.bolder-info{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 60px;
+}
+.text-info{
+    margin-left: 60px;
+    font-size: 20px;
+}
+#testimonial-menu{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#image{
+    width: 510px;
+    height: 605px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#title-testimonial{
+    font-size: 33px;
+}
+#text-testimonial{
+    font-size: 20px;
+}
+#texts{
+    margin-left: 77px;
+    margin-top: 260px;
+}
+#form-section{
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+#title-form{
+    padding-top: 80px;
+    margin: 20px;
+    font-size: 32px;
+}
+input{
+    width: 508px;
+    height: 72px;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+}
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 286px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: bolder;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #dd8519;
+    transform: translateY(-7px);
+    transition-duration: 0.6s;
+    box-shadow: 0px 15px 20px #00000083;
+}
+
+
+
+
